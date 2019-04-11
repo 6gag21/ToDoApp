@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/khaki">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_title_todo_item"
+            android:layout_margin="@dimen/margin_todo_item"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin_todo_item">
+
+         <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_description_todo_item"
+             android:layout_weight="1"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/cb_for_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_check_box_todo_item"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_date_and_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/text_size_date_todo_item"
+            android:layout_weight="1"/>
+
+         <android.support.v7.widget.AppCompatImageButton
+             android:id="@+id/ib_reminder_cardView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:color/transparent"
+             android:src="@drawable/ic_add_alarm" />
+
+         <TextView
+            android:id="@+id/tv_date_and_time_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginStart="@dimen/margin_reminder_text_view_todo_item"
+             android:layout_gravity="bottom"
+             android:textSize="@dimen/text_size_date_todo_item" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_todo_item"
+            android:background="@color/white"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

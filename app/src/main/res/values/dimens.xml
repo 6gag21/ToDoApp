@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_fragment_todo">32dp</dimen>
+    <dimen name="margin_top_fragment_todo">20dp</dimen>
+    <dimen name="margin_fab">20dp</dimen>
+    <dimen name="margin_check_box_todo_item">5dp</dimen>
+    <dimen name="margin_reminder_text_view_todo_item">5dp</dimen>
+    <dimen name="margin_todo_item">1dp</dimen>
+    <dimen name="text_size_title_todo_item">18sp</dimen>
+    <dimen name="text_size_description_todo_item">15sp</dimen>
+    <dimen name="text_size_date_todo_item">12sp</dimen>
+</resources>

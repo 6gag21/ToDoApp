@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="priority">Priority</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="date_sort">Date</string>
+    <string name="edit">Edit</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="add">Add</string>
+</resources>
